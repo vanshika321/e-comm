@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin:0;
+    padding:0;
+    font-family:'Poppins','sans-serif';
+}
+.body{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #dcdcdc;
+}
+.container{
+    position: relative;
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 20px;
+    padding: 20px;
+    margin-top: 50px;
+}
+.container .card{
+    width: 100%;
+    background: #fff;
+}
+
+.imgBx{
+    position: relative;
+    overflow: hidden; 
+    width: 100%;
+    height: 310px;
+    
+}
+body{
+    background: #dcdcdc;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.imgBx img{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    object-fit: cover;
+    transition: 0.5s ease-in-out;
+    transform-origin: right;
+    
+}
+.imgBx img:hover{
+    transform: scale(1.5);
+}
+
+
+input{
+    margin-left: 30px;
+    /* margin-top: 20px; */
+    width: 350px;
+    height: 40px;
+    border: none;
+
+}
+
+.content{
+    padding: 10px;
+}
+.container .card .content .productName{
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    margin: 5px 0;
+}
+.content .price_rating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .card .content .price{
+    color: #ff2020;
+}
+.navbar{
+    background: #15151d
+    ;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left:0px;
+   
+    color: #FFD700;
+}
+.text{
+    padding-bottom: 5px;
+    margin-top: 0px;
+    
+}
+.navbar img{
+    width: 55px;
+    height: 55px;
+    object-fit: contain;
+    font-weight: 800;
+    margin-left: 80px;
+}
+.fa{
+    color: #ffd513;
+    cursor: pointer;
+}
+.text{
+    padding-bottom: 5px;
+    margin-top: 0px;
+}
+.containerx{
+    margin-top: 70px;
+    position: relative;
+    width: 450px;
+    background: #fff;
+
+}
+.containerx .imgBxs{
+    position: relative;
+    width: 100%;
+    height: 410px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+   
+
+
+
+}
+.name{
+    margin-top: 20px;
+    font-weight: 400;
+}
+.imgBxs img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    
+}
+.off{
+    color: rgb(6, 141, 74);
+    font-weight: 500; 
+}
+strike{
+    padding: 0px 4px;
+    color: rgb(119, 119, 119);
+}
+
+
+.hi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart{
+  
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.ratings{
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: rgb(6, 141, 74);
+    width: 70px;
+    color: #fff;
+    clip-path: ellipse(46% 50%);
+    
+    
+}
+.detail{
+    padding-left: 10px;
+}
+.Bag{
+    background: rgb(233, 109, 21);
+    color: #fff;
+    padding: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.buy{
+    background: rgba(230, 217, 41, 0.904);
+    color: #fff;
+    padding: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.description{
+    color: rgba(172, 165, 165, 0.959);
+}
+.ratings .stars{
+    padding-right: 5px;
+   
+}
+.price{
+    font-weight: 700;
+    font-size: 20px;
+}
+.fa{
+    color: #fff;
+
+
+}
+
+.size{
+    padding:30px 2px ;
+    
+    
+}
+
+.size h3{
+    margin-bottom: 20px
+}
+
+.size span{
+    margin-top: 10px;
+    border:solid 1px rgb(175, 168, 168);
+    padding: 9px;
+    cursor: pointer;
+}
+.size span:hover{
+    background: rgb(138, 133, 133);;
+}
+.fa-star{
+    padding-left: 5px;
+}
